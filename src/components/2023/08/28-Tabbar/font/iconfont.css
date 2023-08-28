@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('/src/components/2023/08/28-Tabbar/font/iconfont.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-scan:before {
+  content: "\e7d4";
+}
+
+.icon-user:before {
+  content: "\e7ae";
+}
+
+.icon-barchart:before {
+  content: "\e7af";
+}
+
+.icon-home:before {
+  content: "\e7c6";
+}
+
+.icon-camera:before {
+  content: "\e7d7";
+}
+
