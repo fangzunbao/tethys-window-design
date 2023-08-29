@@ -1,5 +1,5 @@
 <template>
-  <tabbar-28 />
+  <tabbar-29 />
 </template>
 
 <script lang="ts">
