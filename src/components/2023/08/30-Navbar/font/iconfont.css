@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('/src/components/2023/08/30-navbar/font/iconfont.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-plus:before {
+  content: "\e8fe";
+}
+
+.icon-video:before {
+  content: "\e7da";
+}
+
+.icon-qrcode:before {
+  content: "\e7dd";
+}
+
+.icon-message-fill:before {
+  content: "\e84a";
+}
+
+.icon-fire-fill:before {
+  content: "\e866";
+}
+
+.icon-home-fill:before {
+  content: "\e867";
+}
+
+.icon-setting-fill:before {
+  content: "\e871";
+}
+
+.icon-camera:before {
+  content: "\e7d7";
+}
+
