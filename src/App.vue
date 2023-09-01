@@ -1,5 +1,5 @@
 <template>
-  <navbar-30 />
+  <Navbar01 />
 </template>
 
 <script lang="ts">
