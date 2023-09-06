@@ -1,5 +1,5 @@
 <template>
-  <Navbar01 />
+  <Button06 />
 </template>
 
 <script lang="ts">
