@@ -1,8 +1,6 @@
 <template>
   <div class="container">
-    <button type="button" class="button" ref="buttonRef" @click="handleClick">
-      点我
-    </button>
+    <button class="button" ref="buttonRef" @click="handleClick">点我</button>
   </div>
 </template>
 
@@ -20,7 +18,7 @@ const handleClick = () => {
   buttonRef.value.classList.add('animate')
   timer.value = setTimeout(() => {
     buttonRef.value.classList.remove('animate')
-  }, 600)
+  }, 400)
 }
 </script>
 <style scoped lang="scss">
@@ -105,7 +103,7 @@ const handleClick = () => {
     font-weight: 400;
     cursor: pointer;
     box-shadow: 0 5px 10px rgba($color: #000000, $alpha: 0.1);
-    transition: all 0.2s ease;
+    transition: transform 0.2s ease;
     &:active {
       transform: scale(0.96);
     }
@@ -148,7 +146,7 @@ const handleClick = () => {
         40% 90%,
         55% 90%,
         70% 90%;
-      animation: topBubbles 0.6s ease-in-out forwards;
+      animation: topBubbles 0.4s ease-in-out infinite;
     }
     &.animate::after {
       bottom: -70%;
@@ -175,7 +173,7 @@ const handleClick = () => {
         85% 0%,
         70% 0%,
         70% 0%;
-      animation: bottomBubbles 0.6s ease-in-out forwards;
+      animation: bottomBubbles 0.4s ease-in-out forwards;
     }
   }
 }
